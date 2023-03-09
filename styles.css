@@ -1,0 +1,124 @@
+.navigation {
+  width: 940px;
+  height: 80px;
+  border-bottom: 1px solid #828282; /* рамка которая полоска внизу*/
+
+  /* внешний отступ для navigation */
+  /* значение сверху и снизу = 0, значение справа, слева = auto */
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between; /* отсупы по горизонтали */
+  align-items: center; /* отступы по вертикали */
+}
+
+/* обращаемся ко всем ссылкам внутри navigation */
+.navigation > a {
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #828282;
+  /* убираем нижнее подчеркивание */
+  text-decoration: none;
+}
+/* псевдоселектор обращаемся к первому элементу а (ссылка Home) */
+.navigation > a:first-child {
+  color: #070707;
+}
+.general {
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /* отсупы по горизонтали */
+  align-items: center; /* отступы по вертикали */
+  margin-bottom: 30px;
+}
+.name {
+  font-family: "Gilroy-Bold";
+  font-size: 47.3392px;
+  line-height: 59px;
+  width: 125px;
+
+  /* Black */
+  color: #070707;
+}
+.profession {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  width: 155px;
+
+  /* Black */
+  color: #070707;
+}
+.general_block {
+  margin: 0 auto;
+  width: 940px;
+}
+
+.skills_block {
+  padding: 90px 0;
+}
+
+.block_heading {
+  /* это блок с стилем заголовка, которым можно назувать внутри класса и настройки сохряняются*/
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+
+  /* Black */
+  color: #070707;
+}
+
+.subheading {
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+
+  /* Black */
+  color: #070707;
+
+  margin-top: 69px;
+  margin-bottom: 83px;
+}
+
+.card {
+  width: 166px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_image {
+  width: 89px;
+}
+
+.card_heading {
+  width: 80px;
+
+  margin-top: 27px;
+  margin-bottom: 40px;
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #828282;
+}
+
+.card_starsBlock {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards_container {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  margin: 0 auto; /*выравнивание контента в том числе с картинкамии посередине страницы */
+}
