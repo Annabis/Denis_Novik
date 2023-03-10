@@ -11,7 +11,7 @@
   justify-content: space-between; /* отсупы по горизонтали */
   align-items: center; /* отступы по вертикали */
 }
-
+/*test*/
 /* обращаемся ко всем ссылкам внутри navigation */
 .navigation > a {
   font-family: "Gilroy-Bold", sans-serif;
